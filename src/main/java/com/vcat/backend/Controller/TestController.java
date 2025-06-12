@@ -1,10 +1,10 @@
-package com.vcats.platform.controller;
+package com.vcat.backend.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TestController {
+public class HelloController {
 
     @GetMapping("/api/hello")
     public String hello() {
